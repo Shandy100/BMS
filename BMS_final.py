@@ -212,14 +212,6 @@ def available_books():
     frame.geometry("470x350")
     e = Canvas(frame, height=190, width=460, bg="Red")
 
-    # list1=Listbox(top5,height=6,width=35)
-    # list1.grid(row=2,column=0,rowspan=9,columnspan=9)
-
-    # sc1=Scrollbar(top5)
-    # sc1.grid(row=1,column=3)
-    #
-    # list1.configure(yscrollcommand=sc1.set)
-    # sc1.configure(command=list1.yview)
     a1=Label(frame,text="Available Books",bg="Red")
     a1.place(x=200,y=4)
 
@@ -237,8 +229,6 @@ window.title("BMS")
 C = Canvas(window, height=190, width=460, bg="light green")
 C.pack(side="top",fill="both",expand=True)
 
-#my_image= PhotoImage(file='F:\\My Academics\\SEM 3\\Python- INT213\\Project - LMS\\1.jpg')
-#C.create_image(0, 0, anchor = NW, image=my_image)
 b1=Button(window,text="Login",bg="green",command=login)
 b1.place(x=70,y=70,height=40,width=70)
 b2=Button(window,text="Sign Up",bg="green",command=new_user)
